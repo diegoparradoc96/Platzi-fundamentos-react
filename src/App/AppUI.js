@@ -25,7 +25,6 @@ function AppUI({
       <TodoCounter total={totalTodos} completed={completedTodos} />
       <TodoSearch searchValue={searchValue} setSearchValue={setSearchValue} />
 
-  
       <TodoList>
         {loading && <p>Estamos cargando, no desesperes</p>}
         {error && <p>Desesperate, hubo un error</p>}
